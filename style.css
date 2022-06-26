@@ -1,0 +1,40 @@
+/* Body */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(106, 182, 182);
+    color: white;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* Header */
+h1{
+    text-align: center;
+    margin-top: 200px;
+}
+
+/* Main container */
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Buttons */
+button{
+    display: inline;
+    border: 3px solid white;
+    border-radius: 4px;
+    background-color: rgb(72, 130, 132);
+    color: white;
+    padding: 14px;
+    margin: 20px;
+    font-size: large;
+}
+
+button:hover {
+    box-shadow: 6px 5px 6px white;
+}
+
+
+
