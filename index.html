@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Code Quiz</title>
-</head>
-<body>
-<!--Header-->
+  </head>
+  <body>
+    <!--Header-->
     <header>
-        <h1>Ready to test your Knowledge!</h1>
+      <h1>Ready to test your Knowledge!</h1>
     </header>
-<!--Main container-->
+    <!--Main container-->
     <div class="main-container">
-<!--Main buttons-->
-<div class="main-btns">
+      <!--Main buttons-->
+      <div class="main-btns">
         <button id="start-btn" onclick="startQuiz">Start Quiz</button>
         <button id="start-highscore" onclick="highScore">High Score</button>
+      </div>
+      <!--Quiz buttons-->
+      <div id="quiz-page">
+        <div id="timer">Time Left</div>
+            <div id="quiz-questions">Questions</div>
+                <button id="a" onclick="answers('a')">A</button>
+                <button id="a" onclick="answers('b')">B</button>
+                <button id="a" onclick="answers('c')">C</button>
+                <button id="a" onclick="answers('d')">D</button>
+            <div id="result"></div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
-        
-
-
-
-
-
-    </div>
-    
-
-
-
-
-
-
-
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
