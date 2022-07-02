@@ -13,9 +13,9 @@
       <h1>Ready to test your Knowledge!</h1>
     </header>
     <!--Main container-->
-    <div class="main-container">
+    <div id="main-container">
       <!--Main buttons-->
-      <div class="main-btns">
+      <div id="main-btns">
         <button id="start-btn">Start Quiz</button>
         <button id="start-highscore" onclick="highScore">High Score</button>
       </div>
@@ -29,24 +29,26 @@
                 <button id="a" onclick="answers('d')">D</button>
             <div id="result"></div>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <!--Placeholder and submit button-->
+      <div id="gameover">
+        <div id="final-score"></div>
+        <input type="text" size="30" placeholder="Enter your name" name="name" id="name"/>
+        <button id="submit-score">Submit Score</button>
+      </div>
+      <div id="score-container">
+      <div id="high-score">
+        <div id="score-header">
+          <h2>Name</h2>
+          <h2>Score</h2>
+        </div>
+        <div id="highscore-name"></div>
+        <div id="score"></div>
+      </div>
+      <div id="end-btn">
+        <button id="play-again" onclick="replay()">Play Again</button>
+        <button id="clear-score" onclick="clear()">Clear Score</button>
+      </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
